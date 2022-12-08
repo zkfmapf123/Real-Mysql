@@ -35,6 +35,7 @@ set persist_only max_connections=5000;      -- 재시작에 반영 my.cnf + mysq
 */
 
 /*
+    시스템 변수 변경이력
     find / -name 'mysqld-auto.cnf'
     ex) {"Version": 2, "mysql_dynamic_parse_early_variables": {"max_connections": {"Value": "800", "Metadata": {"Host": "", "User": "root", "Timestamp": 1670083820174685}}}}
 */
